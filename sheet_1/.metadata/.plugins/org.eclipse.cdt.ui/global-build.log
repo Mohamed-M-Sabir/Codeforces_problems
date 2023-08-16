@@ -1,0 +1,44 @@
+13:04:07 **** Rebuild of configuration Debug for project Say Hello With C ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Say Hello With C.o" "..\\src\\Say Hello With C.c" 
+..\src\Say Hello With C.c: In function 'main':
+..\src\Say Hello With C.c:19:10: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'char (*)[20]' [-Wformat=]
+  scanf("%s",&name);
+          ^
+gcc -o "Say Hello With C.exe" "src\\Say Hello With C.o" 
+Info: Nothing to build for Say Hello With C
+13:04:59 **** Incremental Build of configuration Debug for project Say Hello With C ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Say Hello With C.o" "..\\src\\Say Hello With C.c" 
+..\src\Say Hello With C.c: In function 'main':
+..\src\Say Hello With C.c:19:10: warning: format '%c' expects argument of type 'char *', but argument 2 has type 'char (*)[20]' [-Wformat=]
+  scanf("%c",&name);
+          ^
+gcc -o "Say Hello With C.exe" "src\\Say Hello With C.o" 
+Info: Nothing to build for Say Hello With C
+13:05:29 **** Incremental Build of configuration Debug for project Say Hello With C ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Say Hello With C.o" "..\\src\\Say Hello With C.c" 
+..\src\Say Hello With C.c: In function 'main':
+..\src\Say Hello With C.c:19:10: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'char (*)[20]' [-Wformat=]
+  scanf("%s",&name);
+          ^
+gcc -o "Say Hello With C.exe" "src\\Say Hello With C.o" 
+13:06:20 **** Incremental Build of configuration Debug for project Say Hello With C ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Say Hello With C.o" "..\\src\\Say Hello With C.c" 
+gcc -o "Say Hello With C.exe" "src\\Say Hello With C.o" 
+Info: Nothing to build for Say Hello With C
+13:15:40 **** Incremental Build of configuration Debug for project Say Hello With C ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Say Hello With C.o" "..\\src\\Say Hello With C.c" 
+gcc -o "Say Hello With C.exe" "src\\Say Hello With C.o" 
+13:17:02 **** Incremental Build of configuration Debug for project Say Hello With C ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Say Hello With C.o" "..\\src\\Say Hello With C.c" 
+gcc -o "Say Hello With C.exe" "src\\Say Hello With C.o" 
+Info: Nothing to build for Say Hello With C
+13:18:26 **** Incremental Build of configuration Debug for project Say Hello With C ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Say Hello With C.o" "..\\src\\Say Hello With C.c" 
+gcc -o "Say Hello With C.exe" "src\\Say Hello With C.o" 
